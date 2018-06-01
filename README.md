@@ -1,18 +1,19 @@
 # Git Command
-git config --global user.name 'name'   //--To change the git user name
-git config --global user.email 'email@gamil.com'  //--To change git email 
 
-git init  //--Initialize Local Git Repository
-git add <File>   //-- Add fiels to index
-git add .   //-- Add all the file/floder
-git status  //--Check status fo working tree
-git commit -m "messages goes here"  //--Commit changes  
-git push  //--Push to remote repository
-git pull  //-- Pull latest from remote repository
-git clone <url>   //- Clone repository
+*git config --global user.name 'name'   //--To change the git user name
+*git config --global user.email 'email@gamil.com'  //--To change git email 
 
-git stage  //--Stage all changes
-git rm --cached <file name>  //--To unstage file
+*git init  //--Initialize Local Git Repository
+*git add <File>   //-- Add fiels to index
+*git add .   //-- Add all the file/floder
+*git status  //--Check status fo working tree
+*git commit -m "messages goes here"  //--Commit changes  
+*git push  //--Push to remote repository
+*git pull  //-- Pull latest from remote repository
+*git clone <url>   //- Clone repository
+
+*git stage  //--Stage all changes
+*git rm --cached <file name>  //--To unstage file
 
 esc :wq   //--To come out from edit moode.
 
