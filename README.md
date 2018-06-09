@@ -1,6 +1,6 @@
 # Git Commands
 
-.gitignore   Add list of  file/folder to ignore while committing file in git . Example :  /node_module
+> **.gitignore**   Add list of  file/folder to ignore while committing file in git . Example :  /node_module
 
 
 ```
