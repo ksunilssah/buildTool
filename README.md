@@ -1,7 +1,9 @@
 # Git Command
-
+```
 git config --global user.name 'name'   //--To change the git user name
 git config --global user.email 'email@gamil.com'  //--To change git email 
+
+``` 
 
 git init  //--Initialize Local Git Repository
 git add <File>   //-- Add fiels to index
@@ -31,3 +33,11 @@ git push -u origin master   //
 git remote add origin https://github.com/ksunilssah/HTML.git   //--Push existing brnach to github
 git push -u origin master
 
+
+
+#Push new project to existing git repo
+git pull <url>
+git add .
+git commit -m "message"
+git remote add origin <url>  //not required
+git push -u origin master   //not required
