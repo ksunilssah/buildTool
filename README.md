@@ -1,5 +1,8 @@
 # Git Commands
 
+.gitignore   Add list of  file/folder to ignore while committing file in git . Example :  /node_module
+
+
 ```
 git config --global user.name 'name'   //To change the git user name
 git config --global user.email 'email@gmail.com'  //To change git email 
@@ -26,7 +29,6 @@ git rm --cached <file name>  //To unStage file
 esc :wq   //To come out from edit mode.
 ```
 
-.gitignore   Add list of  file/folder to ignore while committing file in git . Example :  /node_module
 
 ```
 git checkout <branch name>  //To Change the branch
@@ -45,7 +47,7 @@ git push -u origin master
 ```
 
 
-# Push  project/files to existing git repo
+## Push  project/files to existing git repo
 ```
 git pull <url>
 git add .
